@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Slideshow With Caption And Wheel</title>
+</head>
+
+<body>
+    <!--container for slideshow-->
+    <div class="slide-container">
+        <!--full screen slide show with caption text-->
+        <div class="mySlides fade">
+            <div class="numbertext">1/5</div>
+            <img src="img/img_1.jpg">
+            <div class="text">
+                <h2>Slide One</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi placeat, voluptas eveniet laudantium quaerat
+                    velit ea ex minus dolorum vel!</p>
+            </div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">2/5</div>
+            <img src="img/img_2.jpg">
+            <div class="text">
+                <h2>Slide Two</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi placeat, voluptas eveniet laudantium quaerat
+                    velit ea ex minus dolorum vel!</p>
+            </div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">3/5</div>
+            <img src="img/img_3.jpg">
+            <div class="text">
+                <h2>Slide Three</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi placeat, voluptas eveniet laudantium quaerat
+                    velit ea ex minus dolorum vel!</p>
+            </div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">4/5</div>
+            <img src="img/img_4.jpg">
+            <div class="text">
+                <h2>Slide Four</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi placeat, voluptas eveniet laudantium quaerat
+                    velit ea ex minus dolorum vel!</p>
+            </div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">5/5</div>
+            <img src="img/img_5.jpg">
+            <div class="text">
+                <h2>Slide Five</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi placeat, voluptas eveniet laudantium quaerat
+                    velit ea ex minus dolorum vel!</p>
+            </div>
+
+        </div>
+        <!--next prev button-->
+        <a class="prev" onclick="arrowSlide(-1)">&#10094;</a>
+        <a class="next" onclick="arrowSlide(1)">&#10095;</a>
+        <!--slider navigation-->
+        <div class="circles" style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+
+
+    <!--script start-->
+    <script src="code.js"></script>
+</body>
+
+</html>
